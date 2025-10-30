@@ -1,11 +1,11 @@
 import imgAbout01m from "../../assets/images/about/img-about-01-m.webp";
 import imgAbout01t from "../../assets/images/about/img-about-01-t.webp";
 import imgAbout01d from "../../assets/images/about/img-about-01-d.webp";
-import imgAbout02m from "../../assets/images/about/img-about-02-M.webp";
+import imgAbout02m from "../../assets/images/about/img-about-02-m.webp";
 import imgAbout02t from "../../assets/images/about/img-about-02-t.webp";
 import imgAbout02d from "../../assets/images/about/img-about-02-d.webp";
 
-import imgAbout03m from "../../assets/images/about/img-about-03-M.webp";
+import imgAbout03m from "../../assets/images/about/img-about-03-m.webp";
 import imgAbout03t from "../../assets/images/about/img-about-03-t.webp";
 import imgAbout03d from "../../assets/images/about/img-about-03-d.webp";
 import { Link } from "react-router-dom";
