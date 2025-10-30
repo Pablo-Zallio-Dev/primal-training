@@ -121,7 +121,7 @@ const Home = () => {
             Join the Primal Tribe Today!
           </h5>
           <a href="" className="p-5  flex h-full items-center justify-center ">
-            <button className="  btn-page--gray">reserve your spot</button>
+            <Link className="  btn-page--gray" to="/about">reserve your spot</Link>
           </a>
         </section>
       </section>
