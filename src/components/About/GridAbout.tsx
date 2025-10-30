@@ -1,4 +1,3 @@
-import React from "react";
 import imgAbout01m from "../../assets/images/about/img-about-01-M.webp";
 import imgAbout01t from "../../assets/images/about/img-about-01-t.webp";
 import imgAbout01d from "../../assets/images/about/img-about-01-d.webp";

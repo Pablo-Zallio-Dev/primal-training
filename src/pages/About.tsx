@@ -1,4 +1,4 @@
-import React from "react";
+
 import Hero from "../components/About/Hero";
 import GridAbout from "../components/About/GridAbout";
 
