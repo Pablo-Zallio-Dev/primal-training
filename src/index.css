@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/Geist/Geist-VariableFont_wght.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Anek Tamil";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/Anek_Tamil/AnekTamil-VariableFont_wdth_wght.ttf")
+    format("woff2");
+}
+
+@theme {
+  --color-blueSky: #5e6efd;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #e9ecff;
+  --font-geist: "Geist";
+  --font-anekTamil: "Anek Tamil";
+}
+
+.btn-page {
+  @apply bg-blueSky py-3 px-4  cursor-pointer text-[.9rem] hover:bg-black hover:text-white uppercase transform duration-200;
+}
+
+.btn-page--class {
+  @apply bg-blueSky w-max self-center my-12 py-3 px-4  cursor-pointer rounded-lg text-[.9rem] hover:bg-black hover:text-white uppercase transform duration-200;
+}
+
+.btn-page--gray {
+  @apply bg-gray py-3 px-4  cursor-pointer rounded-lg text-[.9rem] hover:bg-black hover:text-white uppercase transform duration-200;
+}
+.btn-menu-mobile {
+  @apply bg-blueSky py-3 px-[17px];
+}
+
+.links-nav-desktop {
+  @apply text-[.95rem] text-black uppercase;
+}
+.links-nav-mobile {
+  @apply py-3 px-[17px] border-b text-[.95rem] text-black uppercase;
+}
+
+.btn-nav-mobile {
+  @apply text-[.65rem] sm:text-[.85rem] font-bold tracking-wider uppercase;
+}
+
+.title-section {
+  @apply font-anekTamil  p-3 bg-white sm:text-center leading-18 lg:leading-26 text-center text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-black uppercase -tracking-[0.2rem];
+}
+
+.title-home-grid {
+  @apply font-anekTamil tracking-tighter uppercase font-extrabold text-2xl  lg:text-6xl;
+}
+
+.text-home-grid {
+  @apply mb-5 text-[.8rem] lg:text-[1rem] xl:text-2xl leading-4.5 lg:leading-6 xl:leading-8 sm:h-1/2 md:h-1/3 xl:h-1/2 2xl:h-1/3;
+}
