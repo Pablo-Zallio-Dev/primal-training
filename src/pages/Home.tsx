@@ -1,5 +1,3 @@
-//
-
 import imageWorkingMobile from "../assets/images/home/image-working-mobile.webp";
 import imageWomanDesktop from "../assets/images/home/image-woman-desktop.webp";
 import imageWomanMobile from "../assets/images/home/image-woman-mobile.webp";

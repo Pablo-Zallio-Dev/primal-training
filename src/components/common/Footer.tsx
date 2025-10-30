@@ -1,4 +1,3 @@
-
 import Logo from "../../assets/images/logo-footer.png";
 import Slogan from "../../assets/images/slogan-footer.svg";
 const Footer = () => {
