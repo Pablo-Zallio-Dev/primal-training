@@ -1,4 +1,4 @@
-import imgAbout01m from "../../assets/images/about/img-about-01-M.webp";
+import imgAbout01m from "../../assets/images/about/img-about-01-m.webp";
 import imgAbout01t from "../../assets/images/about/img-about-01-t.webp";
 import imgAbout01d from "../../assets/images/about/img-about-01-d.webp";
 import imgAbout02m from "../../assets/images/about/img-about-02-M.webp";
